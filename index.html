@@ -1,1 +1,277 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="description" content="Shiyu Liu: Home">
+    <meta name="author" content="Shiyu Liu">
+
+    <title>Shiyu Liu</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style type="text/css">
+      body {
+        padding-top: 50px;
+      }
+      .starter-template {
+        padding: 40px 15px;
+      }
+      .panel-body li { margin-bottom: 0.5em; }
+    </style>
+
+  </head>
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-4R6B9Y53TW"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-4R6B9Y53TW');
+  </script>
+
+  <body>
+
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Shiyu Liu's Homepage</a>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="index.html">Home</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+    <div class="container">
+
+      <div class="row starter-template">
+        <div class="col-md-10 col-md-offset-1">
+
+          <div class="page-header">
+            <h2 align="left">Shiyu Liu</h2>
+          </div>
+        
+          <div class="panel panel-info">
+            <div class="panel-heading">
+              <h3 class="panel-title" align="center">About Me</h3>
+            </div>
+            <div class="panel-body">
+              <script language=javascript>
+                imgid = Math.floor(Math.random() * 2 + 1.5);
+                document.write("<img src=\"img/ShiyuLiu_"+imgid+".jpeg\" alt=\"profile pic\" width=\"150px\" hspace=\"10\" style=\"float:left;\"/>")
+              </script> <!-- 25%, 50%, 25% -->
+              
+              <p class="text-left">
+                I work at <a href="https://www.clockwork.io">Clockwork Systems</a> as Staff Research Engineer. I obtained my PhD degree in Dept. of Electrical Engineering at Stanford University, working with <a href="https://profiles.stanford.edu/balaji-prabhakar">Prof. Balaji Prabhakar</a>, <a href="http://web.stanford.edu/~mendel/">Prof. Mendel Rosenblum</a>, <a href="https://people.csail.mit.edu/alizadeh/">Prof. Mohammad Alizadeh</a>, and <a href="https://cs.nyu.edu/~anirudh/">Prof. Anirudh Sivaraman</a>. I was affliated to <a href="https://platformlab.stanford.edu/">Stanford Platform Lab</a>. I got my Bachelor degree in Electronic Engineering from Tsinghua University.
+              </p>
+              <p class="text-left">
+                My research interests include computer networking and distributed systems.<!-- Check my <a href="research.html"><b>Research</b></a> page and <a href="biography.html"><b>Biography</b></a> page for more details.-->
+              </p>
+              <p class="text-left">
+                <b>Email</b>: liushiyu1993 [at] gmail [dot] com.
+              </p>
+              <p class="text-left">
+                <a href="https://scholar.google.com/citations?user=w_Z7-nQAAAAJ&hl=en&oi=ao">Google Scholar</a>
+              </p>
+              <p class="text-left">
+                <a href="https://www.linkedin.com/in/shiyu-liu-0065a272">LinkedIn</a>
+              </p>
+            </div>
+          </div>
+
+          
+
+
+          <div class="panel panel-info">
+            <div class="panel-heading">
+              <h2 class="panel-title" align="center">Research</h2>
+            </div>
+            <div class="panel-body">
+              <p class="text-left">
+                At <a href="https://www.clockwork.io">Clockwork Systems</a>, I lead the team who is responsible for R&D of Product Suite <a href="https://www.clockwork.io/cloud-deluxe/">Cloud Deluxe</a> which commercializes my PhD work of <a href="https://www.usenix.org/conference/nsdi21/presentation/liu">On-Ramp</a> and our patents.
+                It addresses several key technical challenges in network and cloud infra that impede performance and drive-up costs for customer-facing applications and AI/ML workloads.
+                The key products include (<a href="https://www.prnewswire.com/news-releases/clockwork-eliminates-packet-drops-and-improves-cloud-network-performance-with-launch-of-cloud-deluxe-platform-301806608.html">read the testimonials</a> by executives of tech giants):
+              </p>
+              <ul align="left">
+                <li>
+                  Packet Rocket: Detect and mitigate network congestion. Intelligently pace packets to kill network latencies and eliminate packet drops for optimal application performance.
+                </li>
+                <li>
+                  Ghost Buffer: Reserve bandwidth headroom to achieve near-minimum network latency for delay-sensitive applications.
+                </li>
+                <li>
+                  Bandwidth Slicer: Create programmable bandwidth slices between VMs. Prioritize traffic and ensure critical applications have the necessary bandwidth.
+                </li>
+              </ul>
+
+              <p class="text-left">
+                At Stanford, my research topics included edge-based sensing, inferring, learning and controlling in data center networks, e.g. clock synchronization (<a href="https://www.usenix.org/system/files/conference/nsdi18/nsdi18-geng.pdf">Huygens</a>), network telemetry and monitoring (<a href="https://www.usenix.org/system/files/nsdi19-geng.pdf">SIMON</a>), flow control (<a href="https://www.usenix.org/system/files/nsdi21-liu.pdf">On-Ramp</a>) in both on-prem data centers and public clouds, as well as building highly scalable and fault-tolerant distributed systems (e.g. <a href="https://platformlab.stanford.edu/wp-content/uploads/2019/01/ShiyuLiu_Retreat18.pdf">ClockChain</a>, <a href="https://conferences.sigcomm.org/sigcomm/2020/tutorial-netfinance.html">CloudEx</a>) on top of them.
+                Check the <a href="#papers">following papers</a> and my talks in Stanford Platform Lab <a href="https://platformlab.stanford.edu/talks-events/reviews-retreats/">annual reviews and retreats</a> for more details.
+              </p>
+              <a name="papers"></a>
+              <p class="text-left">
+                My research has drawn wide interests from industry. The works on clock sync, network telemetry, and flow control are being commercialized at <a href="https://www.clockwork.io/">Clockwork Systems Inc</a>. They have also been piloted or adopted in major technology companies (e.g. Google, eBay, Facebook etc.) and financial institutions (e.g. stock exchanges like Nasdaq, hedge funds, banks). Also check the <a href="#media">media coverage</a> for details.
+              </p>
+
+              
+              <ul align="left">
+                <li>
+                  <span class="badge">NSDI '21</span> "<a href="https://www.usenix.org/system/files/nsdi21-liu.pdf"><b>Breaking the Transience-Equilibrium Nexus: A New Approach to Datacenter Packet Transport</b></a>", S. Liu, A. Ghalayini, M. Alizadeh, B. Prabhakar, M. Rosenblum, and A. Sivaraman, <i>18th USENIX Symposium on Networked Systems Design and Implementation (NSDI 21)</i>.
+                </li>
+                <li>
+                  <span class="badge">NSDI '19</span> "<a href="https://www.usenix.org/system/files/nsdi19-geng.pdf"><b>SIMON: A Simple and Scalable Method for Sensing, Inference and Measurement in Data Center Networks</b></a>", Y. Geng, S. Liu, Z. Yin, A. Naik, B. Prabhakar, M. Rosenblum, and A. Vahdat, <i>16th USENIX Symposium on Networked Systems Design and Implementation (NSDI 19)</i>.
+                </li>
+                <li>
+                  <span class="badge">NSDI '18</span> "<a href="https://www.usenix.org/system/files/conference/nsdi18/nsdi18-geng.pdf"><b>Exploiting a natural network effect for scalable, fine-grained clock synchronization</b></a>", Y. Geng, S. Liu, Z. Yin, A. Naik, B. Prabhakar, M. Rosenblum, and A. Vahdat, <i>15th USENIX Symposium on Networked Systems Design and Implementation (NSDI 18)</i>.
+                </li>
+                <li>
+                  <span class="badge">Allerton</span> "<a href="https://ieeexplore.ieee.org/abstract/document/8262813"><b>Self-programming networks: Architecture and algorithms</b></a>", Y. Geng, S. Liu, F. Wang, Z. Yin, B. Prabhakar and M. Rosenblum, <i>2017 55th Annual Allerton Conference on Communication, Control, and Computing (Allerton)</i>.
+                </li>
+              </ul>
+
+              <p class="text-left">
+                For a period in the past, I also worked on microwave-based medical imaging systems.
+              </p>
+
+              <ul align="left">
+                <li>
+                  "<a href="https://ieeexplore.ieee.org/document/8551285">Beamforming Microwave-Induced Thermoacoustic Imaging for Screening Applications</a>", H. Nan, S. Liu, J. G. Buckmaster, and A. Arbabian, <i>IEEE Transactions on Microwave Theory and Techniques</i>, vol. 67, no. 1, pp. 464-474, Jan. 2019.
+                </li>
+                <li>
+                  "<a href="https://ieeexplore.ieee.org/document/7591511">Extracting Dielectric Spectroscopic Properties from Microwave-Induced Thermoacoustic Signals</a>", S. Liu, H. Nan, N. Dolatsha, and A. Arbabian, <i>The 38th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC’16)</i>, Orlando, Aug. 2016.
+                </li>
+                <li>
+                  "<a href="https://piers.org/pierspublications/PIERS2015PragueProceedings01.pdf#page=217">A 16-Element Wideband Microwave Applicator for Breast Cancer Detection Using Thermoacoustic Imaging</a>", H. Nan, S. Liu, N. Dolatsha, and A. Arbabian, <i>Progress in Electromagnetics Research Symposium (PIERS) Proceedings</i>, 243-247, July 6-9, Prague, 2015. (<b>Best Student Paper Award</b>)
+                </li>
+              </ul>
+
+            </div>
+          </div>
+
+
+
+
+          <div class="panel panel-info">
+            <div class="panel-heading">
+              <h2 class="panel-title" align="center">Education</h2>
+            </div>
+            <div class="panel-body">
+              
+              <ul align="left">
+                <li>
+                  <b>Doctor of Philosophy (PhD)</b>, Department of Electrical Engineering, <b>Stanford University</b>, USA. 2015 - 2021
+                </li>
+                <li>
+                  <b>Master of Science (M.S.)</b>, Department of Electrical Engineering, <b>Stanford University</b>, USA. 2015 - 2018
+                </li>
+                <li>
+                  <b>Bachelor of Engineering (B.Eng.)</b>, Department of Electronic Engineering, <b>Tsinghua University</b>, Beijing, China. 2011 - 2015
+                </li>
+              </ul>
+
+            </div>
+          </div>
+
+          <div class="panel panel-info">
+            <div class="panel-heading">
+              <h2 class="panel-title" align="center">Industrial Experience</h2>
+            </div>
+            <div class="panel-body">
+              
+              <ul align="left">
+                <li>
+                  Staff Research Engineer, <a href="https://www.clockwork.io">Clockwork Systems</a>, Palo Alto, CA, 07/2021 -- Now
+                  <br>Clockwork Systems (formerly known as Tick Tock Networks) is the startup commercializing our works of clock sync, network telemetry, congestion management, and more.
+                </li>
+                <li>
+                  Software Engineer, <a href="https://research.google/teams/network-systems/">NetInfra Group</a>, Google, Sunnyvale, CA, 04/2021 -- 07/2021
+                </li>
+                <li>
+                  Software Engineering Intern, Clockwork Systems, Palo Alto, CA, 06/2019 -- 09/2019
+                </li>
+                <li>
+                  Research Intern, Platform Group, eBay, San Jose, CA, 07/2018 -- 09/2018
+                </li>
+                <li>
+                  Software Engineering Intern, NetInfra Group, Google, Sunnyvale, CA, 07/2017 -- 09/2017
+                </li>
+                <li>
+                  Software Engineering Intern, Amazon Lab126, Sunnyvale, CA, 06/2016 -- 09/2016
+                </li>
+              </ul>
+
+            </div>
+          </div>
+
+
+          <a name="media"></a>
+          <div class="panel panel-info">
+            <div class="panel-heading">
+              <h2 class="panel-title" align="center">Selected Media</h2>
+            </div>
+            <div class="panel-body">
+              
+              <ul align="left">
+                <li>
+                  New York Times, on front page of 06/30/2018, "<a href="https://static01.nyt.com/images/2018/06/30/nytfrontpage/scan.pdf">Whittling a New York Minute To 100 Billionths of a Second</a>"
+                </li>
+                <li>
+                  New York Times, "<a href="https://www.nytimes.com/2018/06/29/technology/computer-networks-speed-nasdaq.html">Time Split to the Nanosecond Is Precisely What Wall Street Wants</a>"
+                </li>
+                <li>
+                  <a href="https://ee-archive.stanford.edu/news/research-news/07-19-2018/research-ee-phd-candidates-geng-liu-and-yin-featured-nyt-tech-article">Stanford News on July 19, 2018</a>
+                </li>
+                <li>
+                  Facebook Research Blog, "<a href="https://research.facebook.com/blog/2021/06/qa-with-stanford-professor-balaji-prabhakar-longtime-university-collaborator-with-facebook/">Q&A with Stanford Professor Balaji Prabhakar, longtime university collaborator with Facebook</a>" (covering the On-Ramp paper at NSDI 21 and the evaluation of On-Ramp in Facebook network infrastructure).
+                </li>
+                <li>
+                  TechCrunch, "<a href="https://techcrunch.com/2023/04/25/clockworks-cloud-deluxe-platform-eliminates-packet-drops-improves-cloud-network-performance/">Clockwork's Cloud Deluxe platform eliminates packet drops, improves cloud network performance</a>".
+                </li>
+                <li>
+                  PR Newswire, "<a href="https://www.prnewswire.com/news-releases/clockwork-eliminates-packet-drops-and-improves-cloud-network-performance-with-launch-of-cloud-deluxe-platform-301806608.html">Clockwork Eliminates Packet Drops and Improves Cloud Network Performance with Launch of Cloud Deluxe Platform</a>".
+                </li>
+              </ul>
+
+            </div>
+          </div>
+
+          <p class="text-left">
+            Last updated in June 2023.
+          </p>
+
+        </div>
+      </div>
+
+    </div><!-- /.container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+  </body>
+</html>
+
+
